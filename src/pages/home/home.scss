@@ -1,0 +1,39 @@
+
+.title{
+     color: white;
+     background-color: #a09fed;
+     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 16px
+    
+}
+
+.icon{
+position: absolute;
+padding-left: 100px;
+padding-top: 29px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);     
+
+
+}
+
+body {
+  cursor: url('http://ionicframework.com/img/finger.png'), auto;
+}
+.img{
+    height: 20px;
+    width: 20px; 
+  margin-right: 5px;
+}
+
+.two{
+    padding-left: 40px;
+}
+.column{
+    padding-top:20px;
+}

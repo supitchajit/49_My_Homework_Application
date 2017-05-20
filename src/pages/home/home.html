@@ -1,0 +1,33 @@
+<html>
+<div class="bar bar-header">
+ <div class="title"><img class="img" src="../img/book.png"/>MY HOMEWORK
+    <ion-icon name="add" (click)="showDetail()"></ion-icon>
+ </div>
+</div>
+
+<body>
+
+<ion-content>
+  <div class="column">
+<ion-grid>
+  <ion-row>
+    <ion-col>
+      <button ion-button round color="dark">Subject</button>
+    </ion-col>
+    <ion-col class="two">
+    <button ion-button round color="dark">Due date</button>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+  </div>
+    <ion-list inset>
+        <ion-item *ngFor="let note of notes" (click)="showDetail(note)">
+          <div item-left>{{ note.Sub }}</div>
+          <div item-right>{{ note.Date | date:'yMMMMd' }}</div>     
+        </ion-item>
+      </ion-list>
+    
+    
+</ion-content>
+</body>
+</html>
