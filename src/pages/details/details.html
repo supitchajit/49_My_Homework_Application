@@ -1,0 +1,28 @@
+<html>
+<div class="bar bar-header">
+ <div class="td">HOMEWORK
+        <ion-icon name="trash" (click)="delete()"></ion-icon>
+ </div>
+</div>
+<ion-content padding>  
+        <ion-item>
+            <ion-label>Subject</ion-label>
+            <ion-input text-right type="text" [(ngModel)]="note.Sub"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label>Details</ion-label>
+            <ion-textarea text-right type="text" [(ngModel)]="note.Name">
+            </ion-textarea>
+        </ion-item>
+        <ion-item>
+            <ion-label>Due Date</ion-label>
+            <ion-datetime displayFormat="MMMM D, YYYY" pickerFormat="MMMM D YYYY" [(ngModel)]="isoDate"></ion-datetime>
+        </ion-item>
+    
+     <div class="b">
+     
+    <button ion-button round (click)="save()">Save</button>
+
+  </div>
+</ion-content> 
+</html>
