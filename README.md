@@ -7,3 +7,5 @@ Member:
 Miss Yasumin Suktheva
 Miss Natthanan Nimitpanyakul
 Miss Supitcha Jittraboon
+For node_modules folder, we cannot upload it because of big size of the folder.
+Therefore, we zipped and uploaded the folder on google drive, you can dowload link below:
