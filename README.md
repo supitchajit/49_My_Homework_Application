@@ -6,4 +6,5 @@ https://drive.google.com/open?id=0B0lfOZuvK681TzBFZkI3Uzl6ZXM
 Member:
 Miss Yasumin Suktheva|
 Miss Natthanan Nimitpanyakul |
-Miss Supitcha Jittraboon
+Miss Supitcha Jittraboon |
+Miss Shevitta Singhasin
